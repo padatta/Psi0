@@ -107,7 +107,7 @@ uv pip install flash_attn==2.7.4.post1 --no-build-isolation
 ```
 
 
-> **Intel GPU (XPU) inference:** XPU inference is supported by [PR #71](https://github.com/physical-superintelligence-lab/Psi0/pull/71). After `uv sync` above, install the XPU-enabled PyTorch wheels:
+> **Intel GPU (XPU) inference:** Psi0 supports inference on Intel GPUs. After `uv sync` above, install the XPU-enabled PyTorch wheels:
 > ```bash
 > uv pip install torch==2.7.0 torchvision==0.22.0 --index-url https://download.pytorch.org/whl/xpu
 > ```
